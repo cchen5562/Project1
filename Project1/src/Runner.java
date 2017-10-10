@@ -3,8 +3,8 @@ public class Runner {
 	{
 		JWongLib.isPerfectSquare(5); //no errors but its not printing?
 		System.out.println();
-		//JwongLib.vigCipher();
-		//JWongLib.isFibonnaci();
+		JwongLib.vigCipher();
+		JWongLib.isFibonnaci();
 		JWongLib.multiplicationTable(2,10); //this works :DDD
 		System.out.println();
 		//CChenLib.isPalindrome();
