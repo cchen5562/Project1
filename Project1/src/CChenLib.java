@@ -4,7 +4,8 @@ public class CChenLib {
 		int a;
 		int b;
 		int c;
-			if((System.out.println("abc")) && (a == c)) {
+			while(a == c)
+			if(System.out.println("abc")) {
 				return true;
 			} System.out.println("true");
 			else if {
