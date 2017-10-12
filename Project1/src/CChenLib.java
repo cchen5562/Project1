@@ -1,23 +1,29 @@
 
 public class CChenLib {
-	//public static boolean isPalindrome() {
-			//if((a + b + c + d) == (d +c + b + a)) {
-				//return true;
-			//}
-		//}
+	public static boolean isPalindrome(String[]args) {
+		int a;
+		int b;
+		int c;
+			if((System.out.println("abc")) && (a == c)) {
+				return true;
+			} System.out.println("true");
+			else if {
+				return false;
+			} System.out.println("false");
+	} 
 	
 		public static void dateStr() {
-			char m;
-			char d;
-			char y;
-			if("mm/dd/yyyy");
+			int m;
+			int d;
+			int y;
+			if(System.out.println("mm/dd/yyyy"));
 				System.out.println("dd - mm - yyyy");
 		}
 	
-		//public static int sumUpTo() {
-			//int a;
-			//for(a = 0; a > 0; a++) {
-				
-			//}
-		//}
+		public static int sumUpTo(int p) {
+			int o;
+			for( o = 0; o >= p; o++) {
+				System.out.println(o + p);
+			}
+		}
 }
