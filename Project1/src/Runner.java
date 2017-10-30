@@ -7,10 +7,10 @@ public class Runner {
 		JWongLib.isFibonnaci(); //not done
 		JWongLib.multiplicationTable(2,10); //this works :DDD
 		System.out.println();
-		CChenLib.isPalindrome(); //not done
-		CChenLib.dateStr(); //not done
-		CChenLib.sumUpTo(5);
-		System.out.println("None of this works and I want to die.");
+		CChenLib.isPalindrome(); 
+		CChenLib.dateStr(22/33/4444); 
+		CChenLib.sumUpTo(3);
+		System.out.println("It finally works! We are done!!!!!");
 	}
 	
 }

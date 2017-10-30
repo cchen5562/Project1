@@ -11,12 +11,14 @@ public class CChenLib {
 		} return true;
 	} 
 	
-		public static void dateStr() {
-			int m;
-			int d;
-			int y;
-			if(System.out.println("mm/dd/yyyy"));
-				System.out.println("dd - mm - yyyy");
+		public static void dateStr(String str) {
+			String month = str.substring(0, 2);
+			String day = str.substring(3 ,5);
+			String year = str.substring(6, str.length()-1);
+			String connect = " -";
+			
+			System.out.println(day + connect + month + connect + year);
+			
 		} 
 	
 	public static void sumUpTo(int p) {
