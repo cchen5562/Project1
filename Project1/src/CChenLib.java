@@ -1,17 +1,14 @@
 
 public class CChenLib {
-	public static boolean isPalindrome(String[]args) {
-		int a; //first letter
-		int b; //anything in between
-		int c; //last letter
-			
-			while(a == c)
-			if(System.out.println("abc")) {
-				return true;
-			} System.out.println("isPalindrome");
-			else if {
+	public static boolean isPalindrome(String str) {
+		int a = 0;
+		int b = str.length()-1;
+		while(b > a) {
+			if(str.charAt(a) != str.charAt(b)) {
 				return false;
-			} System.out.println("notPalindrom");
+			}a++;
+		     b--;
+		} return true;
 	} 
 	
 		public static void dateStr() {
