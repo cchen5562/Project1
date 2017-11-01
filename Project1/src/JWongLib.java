@@ -11,7 +11,7 @@ public class JWongLib {
 		return false;
 	}
 	
-	//Vigenere Cipher chart: https://tinyurl.com/ybydczow
+	//Vigenere Cipher chart: https://tinyurl.com/ybydczow   
 	public static void vigCipher(String code) { // shift of 4; A=E ... Z=C
 		int z = 0;
 		String secret = "";
