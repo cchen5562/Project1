@@ -3,8 +3,9 @@ public class JWongLib {
 	public static boolean isPerfectSquare(int p) {
 		int y = 0;
 		while (y <= p) {
-			if ((y * y) == p);
-			return true;
+			if ((y * y) == p) {
+				return true;
+			}
 		}
 		y++;
 		return false;
